@@ -32,7 +32,7 @@ class Scraper
         student[:blog] = link
       end
     end
-    student[:bio] = profile_page.css("vitals-text-container").children.css
+    student[:bio] = profile_page.css("vitals-text-container").
     
   end
 
