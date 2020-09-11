@@ -32,8 +32,8 @@ class Scraper
         student[:blog] = link
       end
     end
-    vitals = profile_page.css("vitals-text-container").children.css
-    student
+    student[:bio] = profile_page.css("vitals-text-container").children.css
+    
   end
 
 end
